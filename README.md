@@ -22,14 +22,14 @@ Manipule o DOM do site [https://testes.autoforce.com.br/autoforce-ford](https://
 
 ---
 
-2**. Modifique o comportamento do menu Whatsapp**
+**2. Modifique o comportamento do menu Whatsapp**
 ![image](https://user-images.githubusercontent.com/20229434/111014544-e2439880-8382-11eb-860b-f4b5a87be37f.png)
 
 Esses elementos – ao serem clicados – abrem um modal com um formulário que após o preenchimento redireciona para o WhatsApp descrito. Tendo em mente que essas números são dinâmicos, tal qual a quantidade de links, inative o modal de modo que ao clicar no elemento o usuário seja encaminhado diretamente para o WhatsApp.
 
 ---
 
-3**. Modifique o formulário de "Estou Interessado" em** [https://testes.autoforce.com.br/autoforce-ford/novos/territory](https://testes.autoforce.com.br/autoforce-ford/novos/territory)
+**3. Modifique o formulário de "Estou Interessado" em** [https://testes.autoforce.com.br/autoforce-ford/novos/territory](https://testes.autoforce.com.br/autoforce-ford/novos/territory)
 
 Adicione os seguintes campos:
 
@@ -40,7 +40,7 @@ Adicione os seguintes campos:
 
 ---
 
-4**. Exiba um modal com o escudo do Palmeiras** 
+**4. Exiba um modal com o escudo do Palmeiras** 
 
 ---
 
