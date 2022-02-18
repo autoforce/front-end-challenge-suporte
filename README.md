@@ -1,12 +1,12 @@
-# Suporte Front-end Júnior
-Desafio do processo seletivo para vaga de Suporte Front-end Júnior
+# Suporte Front-end
+Desafio do processo seletivo para vaga de Suporte Front-end
 
 ## FAQ
 
 - Posso usar bibliotecas de funções/frameworks?
     - Pode. Em questões relacionadas a manipulação do DOM, ficará restrito as bibliotecas já presentes. Em questões relacionado a montagem de interfaces, fique a vontade.
 - O que faço quando terminar o teste?
-    - Publique no seu repositório de código favorito ou solução equivalente e encaminhe o link para [thaiani@autoforce.com](mailto:thaiani@autoforce.com)
+    - Publique no seu repositório de código favorito ou solução equivalente e encaminhe o link para [lisandra@autoforce.com](mailto:lisandra@autoforce.com)
 
 
 ---
@@ -28,35 +28,46 @@ Manipule o DOM do site [https://testes.autoforce.com.br/autoforce-ford](https://
 ---
 
 
-**2. Modifique o comportamento do menu Whatsapp**
+**2. Modifique os itens de menu "Novos" e "Seminovos"**
 
-![image](https://user-images.githubusercontent.com/20229434/111014544-e2439880-8382-11eb-860b-f4b5a87be37f.png)
+![menu-veiculos](https://user-images.githubusercontent.com/40476367/154494466-d7d91d92-2197-4e78-a2f6-67851ba10107.jpg)
 
-Esses elementos – ao serem clicados – abrem um modal com um formulário que após o preenchimento redireciona para o WhatsApp descrito. Tendo em mente que essas números são dinâmicos, tal qual a quantidade de links, inative o modal de modo que ao clicar no elemento o usuário seja encaminhado diretamente para o WhatsApp.
+Crie um novo item dropdonw para o menu e o entitule "Veículos".
+Os itens "Novos" e "Seminovos" devem ser realocados para esse novo dropdonw. O item "Veículos" deve ser o primeiro do menu.
 
 
 ---
 
 
-**3. Modifique o formulário de "Estou Interessado" em** [https://testes.autoforce.com.br/autoforce-ford/novos/territory](https://testes.autoforce.com.br/autoforce-ford/novos/territory)
+**3. Modifique o formulário de "Estou Interessado" em** [https://testes.autoforce.com.br/autoforce-ford/novos/territory-2022](https://testes.autoforce.com.br/autoforce-ford/novos/territory)
 
 Adicione os seguintes campos:
 
 - 1 Select com as opções: SUV,  Senda, Hatch e Pickup;
 - 1 Textarea com placeholder "Mensagem".
 
-![image](https://user-images.githubusercontent.com/20229434/111014556-f12a4b00-8382-11eb-8a4c-1ce299cfbc8f.png)
+![formulario-territory](https://user-images.githubusercontent.com/40476367/154494112-c74a7e19-485f-4f36-8f4c-877fd38b8e9b.jpg)
 
 
 ---
 
 
-**4. Exiba um modal com o escudo do Palmeiras** 
+**4. Crie um botão flutuante de WhatsApp** 
+
+Crie um popup de WhatsApp fixado no canto inferior esquerdo da tela, ao clicar nesse botão três números devem aparecer 
+(Seminovos: +55 (11) 99999-9999, Serviços +55 (11) 11111-11111 e Central de Vendas: +55 (11) 88888-8888), 
+um novo clique em qualquer um desses números deve encaminhar o usuário diretamente para o WhatsApp.
+
+![popup-whats](https://user-images.githubusercontent.com/40476367/154496219-92997c04-3a19-4991-b435-ef2f645cf36d.jpg)
 
 
 ---
 
 
-## Parte 2 - Montando Layouts
+## Parte 2 - Montando Layout
 
-Codifique a seguinte interface: [https://xd.adobe.com/spec/f54ea76b-e47f-48ec-7281-92c86bac685a-837f/](https://xd.adobe.com/view/5399c8a9-77f7-49de-9c4c-a8e130ff5e8d-06ca/screen/aa88ce4c-be97-4c1d-a8e0-75a8372dd210/)  (o XD tem duas telas, só é necessário montar a referenciada no link)
+Codifique a seguinte interface: [https://www.figma.com/file/mEuuuja11kYw9M9swY69wl/Desafio-Genius?node-id=34%3A42](https://www.figma.com/file/mEuuuja11kYw9M9swY69wl/Desafio-Genius?node-id=34%3A42) 
+
+- Não há necessidade de criar um dropdown nos botões do header. Crie um hyperlink para o telefone e um para o WhatsApp
+- Link do vídeo para a área "Conheça o BMW": 
+https://www.youtube.com/watch?v=cFyrTEYyq64
